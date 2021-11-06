@@ -168,7 +168,7 @@ save cb = map (maybe '-' (head . show)) (toList cb) ++ case nextMove cb of
                                                        Black -> "B"
 
 -- | Construct a chess board from a string produced by 'save'.
-restore :: Monad m => String -> m ChessBoard
+restore :: MonadFail m => String -> m ChessBoard
 restore s
    | length s /= 65 = fail "restore: no parse (string is not 64-char long)"
    | otherwise      = ChessBoard <$>
@@ -178,7 +178,7 @@ restore s
                       'B' -> return Black
                       _   -> fail $ "restore: no parse for last char " ++ [c]
         )
-   where readMaybePiece :: Monad m => String -> m (Maybe Piece)
+   where readMaybePiece :: MonadFail m => String -> m (Maybe Piece)
          readMaybePiece [c] = case reads [c] of
             [(p, "")] -> return $ Just p
             _         -> if c == '-'

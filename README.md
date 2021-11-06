@@ -12,3 +12,17 @@ alpha-beta algorithm.
 * handle endgames properly by detecting draw and checkmate;
 * improve the heuristic evaluation function to take more into account than the
   values of pieces.
+
+
+## Using cabal
+
+```
+$ ghc --version
+The Glorious Glasgow Haskell Compilation System, version 8.10.7
+```
+
+```
+cabal run
+```
+
+
