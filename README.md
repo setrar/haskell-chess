@@ -31,6 +31,8 @@ cabal run
 ```haskell
 GHCi> a <- getLine
 "Move d1 d2"
+GHCi> :type a
+a :: String
 GHCi>  reads a :: [(String,String)]
 [("Move d1 d2","")]
 ```
