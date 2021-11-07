@@ -1,9 +1,9 @@
 module Move (
    Move (..) ) where
 
-import ChessBoard
-import Color
-import Position
+import ChessBoard ( PieceType )
+import Color ( Color )
+import Position ( Position, valid )
 import Data.Char (ord, chr)
 
 -- a move can either be defined by a departure position and an arrival

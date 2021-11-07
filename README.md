@@ -26,3 +26,18 @@ cabal run
 ```
 
 
+## Read
+
+```haskell
+GHCi> a <- getLine
+"Move d1 d2"
+GHCi>  reads a :: [(String,String)]
+[("Move d1 d2","")]
+```
+
+# References
+
+https://stackoverflow.com/questions/8689560/in-what-scenarios-does-haskells-reads-return-more-than-one-list-item
+
+
+

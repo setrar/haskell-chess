@@ -1,11 +1,12 @@
-import ChessBoard
-import Move
-import ChessRules
-import Color
-import Decisions
+import ChessBoard (ChessBoard, initialPosition)
+import Move ()
+import ChessRules (legal,doMove)
+import Color ( Color(White) )
+import Decisions ( advantage, bestMove )
 import System.IO (hFlush, stdout)
 import Input (readMaybe)
 
+depth :: Int
 depth = 3
 
 main :: IO ()

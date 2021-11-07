@@ -5,13 +5,21 @@ module ChessRules (
    gameTree) where
 
 import ChessBoard
-import Move
-import Tree
-import GameTree
-import Color
-import Position
+    ( ChessBoard(..),
+      Piece(Piece),
+      PieceType(King, Pawn, Knight, Bishop, Rook, Queen),
+      switch,
+      at,
+      update,
+      remove,
+      chessMap )
+import Move ( Move(Move, PawnPromotion) )
+import Tree ( genTree )
+import GameTree ( GameTree )
+import Color ( Color(White) )
+import Position ( Position, valid )
 import Data.Maybe (isNothing)
-import CartesianProduct
+import CartesianProduct ( sq )
 import Data.Bifunctor (bimap)
 
 -- | Decide whether a move is legal.

@@ -11,11 +11,12 @@ module Decisions (
 -- illegal moves do not happen.
 
 import ChessBoard
-import Color
-import Move
-import Tree
-import GameTree
-import ChessRules
+    ( ChessBoard(..), Piece(..), PieceType(..), toList )
+import Color ( Color, other )
+import Move ( Move )
+import Tree ( Tree(..), prune )
+import GameTree ()
+import ChessRules ( doMove, possibleMoves, gameTree )
 import Data.List (maximumBy, minimumBy)
 import Data.Function (on)
 

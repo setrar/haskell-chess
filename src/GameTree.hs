@@ -2,8 +2,8 @@ module GameTree (
    GameTree (..)
    ) where
 
-import Tree
-import ChessBoard
+import Tree ( Tree )
+import ChessBoard ( ChessBoard )
 
 -- Each Node of a GameTree has zero or more child nodes, representing
 -- the positions that can be reached in one move from this node.

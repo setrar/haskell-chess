@@ -19,8 +19,8 @@ module ChessBoard (
 import qualified Data.Char as C
 import qualified Data.Vector as V
 import Data.List (intersperse, intercalate)
-import Color
-import Position
+import Color ( Color(..), other )
+import Position ( Position, fromIndex, toIndex )
 import Control.Monad (liftM)
 
 data PieceType =
