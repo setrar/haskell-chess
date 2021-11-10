@@ -35,10 +35,10 @@ license:            GPL-3.0-only
 license-file:       LICENSE
 
 -- The package author(s).
-author:             setrar
+author:             OlivierNicole
 
 -- An email address to which users can send suggestions, bug reports, and patches.
-maintainer:         setrar@valiha.com
+maintainer:         olivier@chnik.fr
 
 -- A copyright notice.
 -- copyright:
@@ -57,7 +57,6 @@ library
       Color
       Decisions
       GameTree
-      Input
       Move
       Position
       Tree

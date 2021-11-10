@@ -16,17 +16,58 @@ alpha-beta algorithm.
 
 ## Using cabal
 
+- [ ] Check the version
+
 ```
 $ ghc --version
 The Glorious Glasgow Haskell Compilation System, version 8.10.7
 ```
 
+- [ ] Run the application
+
 ```
 cabal run
 ```
 
+## Move Examples
 
-## Read
+- [ ] Knight moving from b1 to c3
+
+```
+input> b1c3
+```
+
+## Move and ChessBoard Class Reverse Engineering
+
+- [ ] Launch the `repl`
+
+```
+cabal repl
+``
+
+- [ ] Do some reverse Engineering to understand the moves
+
+```haskell
+> :set prompt "GHCi >"
+GHCi> import Move
+GHCi> (KingSideCastling Color.Black)
+kingside castling by Black
+GHCi> (Move (1,0) (2,2), "N")
+(b1c3,"N")
+GHCi> (Move (2,1) (2,2), "P")
+(c2c3,"P")
+GHCi> (Move (2,1) (2,3), "P")
+(c2c4,"P")
+GHCi> import ChessBoard
+GHCi> (Move (2,1) (2,3), (Pawn))
+(c2c4,p)
+GHCi> (PawnPromotion (Move (3,6) (3,7)) (King))
+d7d8: pawn promoted to k
+```
+
+## Reads
+
+- [ ] Trail and Error to get rid of `Input.hs` source code using `readMaybe` function
 
 ```haskell
 GHCi> a <- getLine

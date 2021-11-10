@@ -1,10 +1,10 @@
 import ChessBoard (ChessBoard, initialPosition)
-import Move ()
+import Move ( Move )
 import ChessRules (legal,doMove)
 import Color ( Color(White) )
 import Decisions ( advantage, bestMove )
 import System.IO (hFlush, stdout)
-import Input (readMaybe)
+import Text.Read ( readMaybe )
 
 depth :: Int
 depth = 3
@@ -27,7 +27,7 @@ execute _ "quit" = putStrLn "Bye!"
 execute cb "eval" = do
    print $ advantage White depth cb
    game cb
-execute cb str = case readMaybe str of
+execute cb str = case readMaybe str :: Maybe Move of
    Nothing -> putStrLn "Invalid input." >> game cb
    Just m -> if not $ legal cb m
              then putStrLn "Illegal move." >> game cb
@@ -39,4 +39,4 @@ execute cb str = case readMaybe str of
                    cb''   = doMove cb' myMove
                putStrLn $ "My move: " ++ show myMove
                game cb''
-
+   
