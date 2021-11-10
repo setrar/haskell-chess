@@ -14,7 +14,7 @@ instance Functor Tree where
 instance (Show a) => Show (Tree a) where
    show = show' 0
       where
-      -- n est le niveau d'indentation
+      -- n is the indentation level
       show' n (Node a x) = replicate n '*' ++ show a ++ "\n"
          ++ concatMap (show' (n + 1)) x
 
