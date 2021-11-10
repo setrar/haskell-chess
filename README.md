@@ -43,7 +43,7 @@ input> b1c3
 
 ```
 cabal repl
-``
+```
 
 - [ ] Do some reverse Engineering to understand the moves
 
