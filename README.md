@@ -135,7 +135,7 @@ My move: a5b4
 ```haskell
 input> b1a3
 I'm thinking...
-My move: b4c3
+My move: c3e1
 ```
 
  - [ ] Let's move the White Knight towards victory : 
