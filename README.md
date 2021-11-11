@@ -86,7 +86,7 @@ Just "c2c4"
 
 #### :unicorn: Knight on Panic Attack :exclamation::exclamation::x:
 
-- [ ] Classical Opening
+- [ ] [Queen's Pawn Game](https://en.wikipedia.org/wiki/Queen's_Pawn_Game)
 
 ```haskell
 input> d2d4
