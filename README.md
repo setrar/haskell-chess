@@ -74,7 +74,7 @@ GHCi>  reads a :: [(String,String)]
 [("(Move (2,1) (2,3), Pawn)","")]
 ```
 
-- [ ] Using `Text.Read` removing the need to use `Input.hs`
+- [ ] Using `import Text.Read`, removing the need to use `Input.hs`
 
 ```
 GHCi > readMaybe "\"(Move (2,1) (2,3), Pawn)\"" :: Maybe String
