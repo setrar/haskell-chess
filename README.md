@@ -84,6 +84,25 @@ GHCi > readMaybe "\"c2c4\"" :: Maybe String
 Just "c2c4"
 ```
 
+## Knight kind of upset
+
+```haskell
+input> d2d4
+I'm thinking...
+My move: g8e6
+input> d4d5
+I'm thinking...
+My move: e6c4
+input> b2b3
+I'm thinking...
+My move: c4a5
+input> b3b4
+I'm thinking...
+My move: a5b4
+```
+
+![duh](images/knight-upset.png)
+
 
 # References
 
