@@ -39,7 +39,7 @@ input> b1c3
 
 - [ ] More examples
 
-[:point_right:](MOVE.md)
+[:point_right: a scenario](MOVE.md)
 
 
 ## Move and ChessBoard Class Reverse Engineering
