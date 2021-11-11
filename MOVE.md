@@ -1,4 +1,4 @@
-# (funny) Move examples 
+# Move Examples 
 
 #### :unicorn: Knight on Panic Attack :exclamation::exclamation::x:
 
