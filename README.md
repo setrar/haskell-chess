@@ -93,5 +93,6 @@ Just "c2c4"
 
 https://stackoverflow.com/questions/8689560/in-what-scenarios-does-haskells-reads-return-more-than-one-list-item
 
+https://en.wikipedia.org/wiki/Algebraic_notation_(chess)
 
 
