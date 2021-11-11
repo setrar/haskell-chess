@@ -101,7 +101,7 @@ I'm thinking...
 My move: a5b4
 ```
 
-![duh](images/knight-upset.png)
+<img src="images/knight-upset.png" width="638" height="1214" > </img>
 
 
 # References
