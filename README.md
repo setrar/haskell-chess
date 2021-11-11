@@ -154,6 +154,7 @@ My move: b4c3
 
  <img src="images/check-mate.png" width=160  height=296 > </img>
 
+:question_mark: Duh, `Check Mate`
 
 # References
 
