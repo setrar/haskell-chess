@@ -102,13 +102,12 @@ My move: a5b4
 ```
  <img src="images/knight-upset.png" width=159  height=303 > </img>
  
- `knight` becomes `pawn` :anguished:
+ `knight` becomes a `bishop` or `queen` :anguished:
  ```haskell
  input> b1a3
 I'm thinking...
 My move: b4c3
 ```
-:x: Illegal moves are not checked when computer is eating
 
 # References
 
