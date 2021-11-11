@@ -59,19 +59,19 @@ GHCi> (PawnPromotion (Move (3,6) (3,7)) King)
 d7d8: pawn promoted to k
 ```
 
-## Reads
+## Move Reads
 
-- [ ] Trail and Error to get rid of `Input.hs` source code using `readMaybe` function
+- [ ] Trial and Error to get rid of `Input.hs` source code using `readMaybe` function
 
 ```haskell
 GHCi> a <- getLine
-"Move d1 d2"
+"(Move (2,1) (2,3), Pawn)"
 GHCi> a
-"\"Move d1 d3\""
+"\"(Move (2,1) (2,3), Pawn)\""
 GHCi> :type a
 a :: String
 GHCi>  reads a :: [(String,String)]
-[("Move d1 d2","")]
+[("(Move (2,1) (2,3), Pawn)","")]
 ```
 
 # References
