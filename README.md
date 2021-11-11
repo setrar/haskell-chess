@@ -156,6 +156,16 @@ My move: c3e1
 
 :x: Duh, `Check Mate`
 
+- [ ] Life ater death
+
+* Game is not over...
+
+```
+input> b5c7
+I'm thinking...
+My move: b8c7
+```
+
 # References
 
 https://stackoverflow.com/questions/8689560/in-what-scenarios-does-haskells-reads-return-more-than-one-list-item
