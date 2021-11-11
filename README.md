@@ -131,9 +131,11 @@ My move: a5b4
 
 * which is now either a `Bishop` or a `Queen` 
 * moves towards the `King` a step at a time
- 
+
+ - [ ] Let's move the White Knight towards victory : 
+
  ```haskell
- input> b1a3
+ input> a3b5
 I'm thinking...
 My move: b4c3
 ```
