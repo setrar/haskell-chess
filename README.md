@@ -37,6 +37,11 @@ cabal run
 input> b1c3
 ```
 
+- [ ] More examples
+
+[->](MOVE.md)
+
+
 ## Move and ChessBoard Class Reverse Engineering
 
 - [ ] Launch the `repl`
