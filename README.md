@@ -92,6 +92,11 @@ Just "c2c4"
 input> d2d4
 I'm thinking...
 My move: g8e6
+```
+
+ <img src="images/illegal-move.png" width=160  height=296 > </img>
+
+```haskell
 input> d4d5
 I'm thinking...
 My move: e6c4
