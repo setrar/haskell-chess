@@ -86,6 +86,8 @@ Just "c2c4"
 
 #### :unicorn: Knight on Panic Attack :exclamation::exclamation::x:
 
+- [ ] Classical Opening
+
 ```haskell
 input> d2d4
 I'm thinking...
@@ -100,9 +102,13 @@ input> b3b4
 I'm thinking...
 My move: a5b4
 ```
+
+:bulb: `knight` becomes a `bishop` or `queen` :anguished:
+ 
  <img src="images/knight-upset.png" width=159  height=303 > </img>
  
- `knight` becomes a `bishop` or `queen` :anguished:
+ - [ ] Let's move the `b1` Knight
+ 
  ```haskell
  input> b1a3
 I'm thinking...
@@ -111,7 +117,6 @@ My move: b4c3
 
  <img src="images/check-mate.png" width=160  height=296 > </img>
 
- × 
 
 # References
 
