@@ -135,7 +135,7 @@ My move: a5b4
 ```haskell
 input> b1a3
 I'm thinking...
-My move: c3e1
+My move: b4c3
 ```
 
  - [ ] Let's move the White Knight towards victory : 
@@ -149,7 +149,7 @@ Let's move our piece :arrow_heading_up:
  ```haskell
  input> a3b5
 I'm thinking...
-My move: b4c3
+My move: c3e1
 ```
 
  <img src="images/check-mate.png" width=160  height=296 > </img>
