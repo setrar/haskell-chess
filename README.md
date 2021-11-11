@@ -98,14 +98,14 @@ My move: g8e6
 
  <img src="images/illegal-move.png" width=160  height=296 > </img>
 
-- [ ] (d4d5) nagging the jumping `knight` which will still jumping side ways (e6c4) :exclamation:
+- [ ] (d4d5) nagging the jumping `knight` which still jumps side ways (e6c4) :exclamation:
 
 ```haskell
 input> d4d5
 I'm thinking...
 My move: e6c4
 ```
-- [ ] (b2b3) chasing the jumping `knight` which will finaly abide to the rules (c4a5) :tada:
+- [ ] (b2b3) chasing the jumping `knight` which finaly abides to the rules (c4a5) :tada:
 
 ```haskell
 input> b2b3
@@ -113,7 +113,7 @@ I'm thinking...
 My move: c4a5
 ```
 
-- [ ] (b3b4) still nagging the jumping `knight` which will get angry and pretty hungry :skull:
+- [ ] (b3b4) still nagging the jumping `knight` which now gets angry and pretty hungry, killing the poor `Pawn` :skull:
 
 ```haskell
 input> b3b4
