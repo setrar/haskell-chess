@@ -113,9 +113,9 @@ I'm thinking...
 My move: c4a5
 ```
 
-- [ ] (b3b4) still nagging the jumping `knight` :
+- [ ] (b3b4) still nagging the jumping `knight` which :
 
-* `knight` now gets angry and pretty hungry
+* gets angry and pretty hungry
 * kills the poor `Pawn` :skull:
 * becomes a `bishop` or `queen` :anguished:
 
