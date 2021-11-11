@@ -84,7 +84,7 @@ GHCi > readMaybe "\"c2c4\"" :: Maybe String
 Just "c2c4"
 ```
 
-#### Knight Panic
+#### :unicorn: Knight on Panic Attack :exclamation::exclamation::x:
 
 ```haskell
 input> d2d4
