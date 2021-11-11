@@ -48,20 +48,14 @@ cabal repl
 - [ ] Do some reverse Engineering to understand the moves
 
 ```haskell
-> :set prompt "GHCi >"
+> :set prompt "GHCi > "
 GHCi> import Move
-GHCi> (KingSideCastling Color.Black)
+GHCi> KingSideCastling Color.Black
 kingside castling by Black
-GHCi> (Move (1,0) (2,2), "N")
-(b1c3,"N")
-GHCi> (Move (2,1) (2,2), "P")
-(c2c3,"P")
-GHCi> (Move (2,1) (2,3), "P")
-(c2c4,"P")
 GHCi> import ChessBoard
-GHCi> (Move (2,1) (2,3), (Pawn))
+GHCi> (Move (2,1) (2,3), Pawn)
 (c2c4,p)
-GHCi> (PawnPromotion (Move (3,6) (3,7)) (King))
+GHCi> (PawnPromotion (Move (3,6) (3,7)) King)
 d7d8: pawn promoted to k
 ```
 
