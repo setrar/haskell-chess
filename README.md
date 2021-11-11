@@ -101,6 +101,7 @@ I'm thinking...
 My move: a5b4
 ```
  <img src="images/knight-upset.png" width=159  height=303 > </img>
+ 
  `knight` becomes `pawn` :anguished:
  ```haskell
  input> b1a3
