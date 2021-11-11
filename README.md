@@ -108,7 +108,7 @@ My move: a5b4
 I'm thinking...
 My move: b4c3
 ```
-
+:x: Illegal moves are not checked when computer is eating
 
 # References
 
