@@ -74,6 +74,17 @@ GHCi>  reads a :: [(String,String)]
 [("(Move (2,1) (2,3), Pawn)","")]
 ```
 
+- [ ] Using `Text.Read` removing the need to use `Input.hs`
+
+```
+GHCi > readMaybe "\"(Move (2,1) (2,3), Pawn)\"" :: Maybe String
+Just "(Move (2,1) (2,3), Pawn)"
+GHCi > -- or using the Chees Board coordinates to make the moves
+GHCi > readMaybe "\"c2c4\"" :: Maybe String
+Just "c2c4"
+```
+
+
 # References
 
 https://stackoverflow.com/questions/8689560/in-what-scenarios-does-haskells-reads-return-more-than-one-list-item
