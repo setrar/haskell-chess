@@ -127,7 +127,10 @@ My move: a5b4
 
  <img src="images/knight-upset.png" width=159  height=303 > </img>
  
- - [ ] Let's move the `b1` Knight
+ - [ ] Let's move the `b1` White Knight, the `Black` knight : 
+
+* which is now either a `Bishop` or a `Queen` 
+* moves towards the `King` a step at a time
  
  ```haskell
  input> b1a3
