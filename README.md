@@ -140,6 +140,12 @@ My move: b4c3
 
  - [ ] Let's move the White Knight towards victory : 
 
+* Is the White `Knight` being able to move?
+* Is the White `King` unprotected?
+* Is the White `King` in `check`? :anchor:
+
+Let's move our piece :arrow_heading_up:
+
  ```haskell
  input> a3b5
 I'm thinking...
