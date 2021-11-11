@@ -130,7 +130,13 @@ My move: a5b4
  - [ ] Let's move the `b1` White Knight, the `Black` knight : 
 
 * which is now either a `Bishop` or a `Queen` 
-* moves towards the `King` a step at a time
+* moves towards the `King` one step at a time
+
+```haskell
+input> b1a3
+I'm thinking...
+My move: b4c3
+```
 
  - [ ] Let's move the White Knight towards victory : 
 
