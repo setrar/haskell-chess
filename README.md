@@ -116,8 +116,8 @@ My move: c4a5
 - [ ] (b3b4) still nagging the jumping `knight` which :
 
 * gets angry and pretty hungry
-* kills the poor `Pawn` :skull:
-* becomes a `bishop` or `queen` :anguished:
+* suddenly becomes a `bishop` or `queen` :anguished:
+* and kills the poor `Pawn` :skull:
 
 ```haskell
 input> b3b4
