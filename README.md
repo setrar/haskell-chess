@@ -84,7 +84,7 @@ GHCi > readMaybe "\"c2c4\"" :: Maybe String
 Just "c2c4"
 ```
 
-## Knight kind of upset
+#### Knight Panic
 
 ```haskell
 input> d2d4
