@@ -109,6 +109,10 @@ I'm thinking...
 My move: b4c3
 ```
 
+ <img src="images/check-mate.png" width=160  height=296 > </img>
+
+ × 
+
 # References
 
 https://stackoverflow.com/questions/8689560/in-what-scenarios-does-haskells-reads-return-more-than-one-list-item
