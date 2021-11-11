@@ -48,7 +48,7 @@ cabal repl
 - [ ] Do some reverse Engineering to understand the moves
 
 ```haskell
-> :set prompt "GHCi > "
+*CartesianProduct> :set prompt "GHCi > "
 GHCi> import Move
 GHCi> KingSideCastling Color.Black
 kingside castling by Black
