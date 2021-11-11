@@ -94,6 +94,8 @@ I'm thinking...
 My move: g8e6
 ```
 
+:x: `knight` jumps around :anguished:
+
  <img src="images/illegal-move.png" width=160  height=296 > </img>
 
 ```haskell
@@ -108,7 +110,7 @@ I'm thinking...
 My move: a5b4
 ```
 
-:bulb: `knight` becomes a `bishop` or `queen` :anguished:
+:x: `knight` becomes a `bishop` or `queen` :anguished:
  
  <img src="images/knight-upset.png" width=159  height=303 > </img>
  
