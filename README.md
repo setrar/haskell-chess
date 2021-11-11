@@ -105,7 +105,7 @@ input> d4d5
 I'm thinking...
 My move: e6c4
 ```
-- [ ] (b2b3) chasing the jumping `knight` which finaly abides to the rules (c4a5) :tada:
+- [ ] With a `Pawn`, (b2b3) chasing the jumping `knight` which finaly abides to the rules (c4a5) :tada:
 
 ```haskell
 input> b2b3
