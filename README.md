@@ -160,7 +160,7 @@ My move: c3e1
 
 * Game is not over...
 
-```
+```haskell
 input> b5c7
 I'm thinking...
 My move: b8c7
