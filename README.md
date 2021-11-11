@@ -84,7 +84,7 @@ GHCi > readMaybe "\"c2c4\"" :: Maybe String
 Just "c2c4"
 ```
 
-## Knight kind of upset
+#### :unicorn: Knight on Panic Attack :exclamation::exclamation::x:
 
 ```haskell
 input> d2d4
@@ -100,9 +100,14 @@ input> b3b4
 I'm thinking...
 My move: a5b4
 ```
-
  <img src="images/knight-upset.png" width=159  height=303 > </img>
-
+ 
+ `knight` becomes a `bishop` or `queen` :anguished:
+ ```haskell
+ input> b1a3
+I'm thinking...
+My move: b4c3
+```
 
 # References
 
