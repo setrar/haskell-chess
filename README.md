@@ -113,7 +113,11 @@ I'm thinking...
 My move: c4a5
 ```
 
-- [ ] (b3b4) still nagging the jumping `knight` which now gets angry and pretty hungry, killing the poor `Pawn` :skull:
+- [ ] (b3b4) still nagging the jumping `knight` :
+
+* `knight` now gets angry and pretty hungry
+* kills the poor `Pawn` :skull:
+* becomes a `bishop` or `queen` :anguished:
 
 ```haskell
 input> b3b4
@@ -121,8 +125,6 @@ I'm thinking...
 My move: a5b4
 ```
 
-:x: `knight` becomes a `bishop` or `queen` :anguished:
- 
  <img src="images/knight-upset.png" width=159  height=303 > </img>
  
  - [ ] Let's move the `b1` Knight
