@@ -79,7 +79,7 @@ GHCi>  reads a :: [(String,String)]
 ```
 GHCi > readMaybe "\"(Move (2,1) (2,3), Pawn)\"" :: Maybe String
 Just "(Move (2,1) (2,3), Pawn)"
-GHCi > -- or using the Chees Board coordinates to make the moves
+GHCi > -- or using the Chess Board coordinates to make the moves
 GHCi > readMaybe "\"c2c4\"" :: Maybe String
 Just "c2c4"
 ```
