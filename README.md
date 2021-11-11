@@ -98,7 +98,7 @@ My move: g8e6
 
  <img src="images/illegal-move.png" width=160  height=296 > </img>
 
-- [ ] naging the jumping `knight`
+- [ ] nagging the jumping `knight`
 
 ```haskell
 input> d4d5
