@@ -81,7 +81,7 @@ GHCi>  reads a :: [(String,String)]
 
 - [ ] Using `import Text.Read`, removing the need to use `Input.hs`
 
-```
+```haskell
 GHCi > readMaybe "\"(Move (2,1) (2,3), Pawn)\"" :: Maybe String
 Just "(Move (2,1) (2,3), Pawn)"
 GHCi > -- or using the Chess Board coordinates to make the moves
